@@ -1,0 +1,85 @@
+body {
+  padding: 50px;
+  border-style: none;
+}
+
+.header {
+  margin-top: 10px;
+  background-color:dodgerblue;
+}
+
+.container {
+  border: 1px solid;
+}
+
+.margin {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.vald1 {
+  color: red;
+  font-size: small;
+}
+
+.image {
+  width: 640px;
+  height: 600px;
+  border-image: rounded;
+}
+
+
+@media only screen and  (max-width: 375px) {
+  .col-md-6 {
+    width: 100%;
+  }
+  .flex-container {
+    background:none;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    border-image: rounded;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+  .col-md-6 {
+    width: 100%;
+  }
+  .flex-container {
+    background: rgb(245, 246, 248);
+    margin-bottom: 20px;
+  }
+  .image {
+    width: 260px;
+    height:260px;
+    border-image: rounded;
+  }
+}
+@media only screen and (min-width:400px) and (max-width:750px){
+  .image{
+    width:290px;
+    height:290px;
+  }
+}
+
+@media only screen and (min-width: 765px) and (max-width: 1290px) {
+  .flex-container {
+    background:none;
+  }
+
+  .image{
+    width:312px;
+    height:454px;
+  }
+}
+
+@ media only screen and (min-width:1290px) and (max-width:1440px)
+{
+  .image{
+    width:640px;
+  }
+}

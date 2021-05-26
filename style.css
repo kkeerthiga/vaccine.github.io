@@ -10,8 +10,10 @@ h1,h3{
 }
 
 .header {
-  margin-top: 10px;
-  background-color:dodgerblue;
+  margin-top: 20px;
+  background:url(titlebg.jpg);
+  height: 150px;
+  color: teal;
 }
 
 .container {

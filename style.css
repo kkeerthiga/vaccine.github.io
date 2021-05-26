@@ -1,6 +1,12 @@
 body {
+  font-family:'Roboto','sans-serif';
+  font-size: 20px;
   padding: 50px;
   border-style: none;
+  align-content: center;
+}
+h1,h3{
+  font-family: 'Open sans','georgia';
 }
 
 .header {
@@ -9,7 +15,8 @@ body {
 }
 
 .container {
-  border: 1px solid;
+  border: 0px solid;
+  max-width: 100%;
 }
 
 .margin {
@@ -22,8 +29,8 @@ body {
 }
 
 .image {
-  width: 640px;
-  height: 600px;
+  width: 650px;
+  height: 500px;
   border-image: rounded;
 }
 
@@ -67,18 +74,27 @@ body {
 }
 
 @media only screen and (min-width: 765px) and (max-width: 1290px) {
+  .col-md-6{
+    width:100%;
+
+  }
   .flex-container {
     background:none;
+
   }
 
   .image{
-    width:312px;
+    width:612px;
     height:454px;
   }
 }
 
 @ media only screen and (min-width:1290px) and (max-width:1440px)
 {
+  .col-md-6{
+    width:100%;
+  }
+
   .image{
     width:640px;
   }
